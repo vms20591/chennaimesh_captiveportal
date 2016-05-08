@@ -17,6 +17,11 @@
 	margin-top:5px;
 	font-style:italic;
 	color:gray;
+	transition: color 0.2s ease-in;
+}
+
+.team:hover p.member-specialization{
+	color:#FFFFFF;
 }
 
 .team-member{
@@ -28,6 +33,11 @@
 	border-radius:100%;
 	overflow:hidden;
 	background-color:#FFFFFF;
+	transition: border 0s ease-in;
+}
+
+.team:hover .team-member{
+	border:1px solid #354551;
 }
 
 .team{
@@ -55,7 +65,7 @@
 	color:#FFFFFF;
 	margin:auto;
 	border-radius:7px;
-	box-shadow: 5px 5px 5px gray;
+	box-shadow: 5px 5px 3px gray;
 }
 
 .team-title h2{
@@ -63,11 +73,17 @@
 }
 
 .team a.btn-special{
+	background-color:#4CAF50;
+	border:1px solid #4CAF50;
 	visibility:hidden;
 	margin-left:30%;
-	transition: visibility 0s linear;
+	transition: visibility 0s linear,background-color 0s linear;
 }
 
 .team:hover a.btn-special{
 	visibility: visible;
+}
+
+a.btn-special:hover{
+	background-color:#4CBF40;
 }
