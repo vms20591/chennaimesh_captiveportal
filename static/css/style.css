@@ -43,16 +43,15 @@
 .team{
 	overflow:hidden;
 	width:80%;
-	height:280px;
+	height:350px;
 	margin-bottom:15px;
 	padding-top:20px;
 	border-radius:5px;
 	box-shadow: 5px 5px 10px gray;
-	transition: background-color 0.2s ease-in,color 0.2s ease-in,height 0.2s ease-in;
+	transition: background-color 0.2s ease-in,color 0.2s ease-in;
 }
 
 .team:hover{
-	height:350px;
 	background-color:#354551;
 	color: #FFFFFF;
 }
@@ -75,7 +74,6 @@
 .team a.btn-special{
 	background-color:#4CAF50;
 	border:1px solid #4CAF50;
-	visibility:hidden;
 	margin-left:30%;
 	transition: visibility 0s linear,background-color 0s linear;
 }
